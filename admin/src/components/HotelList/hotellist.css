@@ -1,0 +1,111 @@
+.hotel-list{
+    width: 75%;
+    height: auto;
+    margin:  -400px 220px;
+    position: absolute;
+}
+.title-page{
+    display: flex;
+    flex-direction: row;
+}
+.title-page h3{
+   color: #9e9696;
+}
+
+.title-page button{
+    margin: 15px 0 0 70%;
+    height: 30px;
+    color: green;
+    border: solid 1px green;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.transaction-table1 {
+    width: 100%;
+    border:solid 1px rgb(207, 203, 197);
+    margin-top: 5px;
+    border-collapse: collapse;
+}
+
+.transaction-table1 th{
+    padding-bottom: 10px;
+    text-align: left;
+    border-bottom: solid 1px rgb(179, 175, 170);
+    font-size: 15px;
+    color: rgb(129, 125, 119);
+    
+}
+.transaction-table1 td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: solid 1px rgb(179, 175, 170);   
+}
+
+.transaction-table1 p{
+    color: #615959;
+    font-size: 10px;
+}
+
+
+.transaction-table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+.transaction-table1 td {
+    color: #333;
+    font-size: 10px;
+}
+
+.transaction-table1 td:last-child {
+    font-weight: bold;
+}
+
+.transaction-table1 td:nth-child(1) {
+    font-weight: bold;
+}
+.transaction-table1 th:nth-child(1),
+.transaction-table1 td:nth-child(1) {
+    padding-left: 2px;
+    width: 2%; /* Độ rộng cho cột Thứ tự */
+}
+
+.transaction-table1 th:nth-child(2),
+.transaction-table1 td:nth-child(2) {
+    width: 15%; /* Độ rộng cho cột Hotel */
+}
+
+.transaction-table1 th:nth-child(3),
+.transaction-table1 td:nth-child(3) {
+    width: 20%; /* Độ rộng cho cột Room */
+}
+
+.transaction-table1 th:nth-child(4),
+.transaction-table1 td:nth-child(4) {
+    width: 10%; /* Độ rộng cho cột Date */
+}
+
+.transaction-table1 th:nth-child(5),
+.transaction-table1 td:nth-child(5) {
+    width: 18%; /* Độ rộng cho cột Payment Method */
+}
+
+.transaction-table1 th:nth-child(6),
+.transaction-table1 td:nth-child(6) {
+    width: 10%; /* Độ rộng cho cột Status */
+}
+.transaction-table1 th:nth-child(7)
+.transaction-table1 td:nth-child(6)
+{
+    width: 12%; /* Độ rộng cho cột Status */
+    
+}
+.transaction-table1 button{
+    margin-left: 5px;
+    background-color: white;
+    border: dashed 1px red;
+    color: red;
+    border-radius: 4px;
+}

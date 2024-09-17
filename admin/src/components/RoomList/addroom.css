@@ -1,0 +1,75 @@
+.add-room {
+    width: 75%;
+    margin: -420px 230px;
+    position: absolute;
+}
+.add-hotel h3{
+    color: rgb(163, 162, 160);
+}
+.choose-room button{
+    width: 120px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(12, 121, 79);
+    color: white;
+    font-size: 15px;
+}
+
+.addhotelform {
+ display: flex;
+ flex-direction: row;
+
+}
+.addhotel-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    flex:  0 0 35%;
+}
+.addhotel1{
+    margin: 0px 0px 0px 200px;
+}
+
+.addhotel-form label{
+    margin-top: 20px;
+}
+.addhotel-form input{
+    border: none;
+    border-bottom: solid 1px rgb(126, 120, 120);
+}
+.addhotel-form select{
+    font-size: 10px;
+    width: 40px;
+    height: 30px;
+}
+.typeroomhotel1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.typeroomhotel1 select{
+    margin: 10px;
+    width: 100%;
+    height: 20px;
+}
+.typeroomhotel1 input{
+    height: 50px;
+}
+#images{
+    border: solid 1px rgb(97, 88, 88);
+    height: 30px;
+}
+#type{
+    width: 100%;
+    appearance: none   ;
+    border: none;
+    border-bottom: solid 1px rgb(126, 120, 120);
+}
+.choose-room{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 20px;
+}

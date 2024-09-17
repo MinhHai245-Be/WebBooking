@@ -1,0 +1,107 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.container h3{
+    margin-top: 30px;
+}
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+   
+}
+
+.transaction-table th, .transaction-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.transaction-table th {
+    background-color: #4d81f1;
+    color: white;
+}
+
+.transaction-table th {
+    color: white; /* Màu xanh cho tiêu đề các cột */
+}
+
+.transaction-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+.transaction-table td {
+    color: #333;
+    font-size: 15px;
+}
+
+.transaction-table td:last-child {
+    font-weight: bold;
+}
+
+.transaction-table td:nth-child(1) {
+    font-weight: bold;
+}
+.transaction-table th:nth-child(1),
+.transaction-table td:nth-child(1) {
+    width: 5%; /* Độ rộng cho cột Thứ tự */
+}
+
+.transaction-table th:nth-child(2),
+.transaction-table td:nth-child(2) {
+    width: 32%; /* Độ rộng cho cột Hotel */
+}
+
+.transaction-table th:nth-child(3),
+.transaction-table td:nth-child(3) {
+    width: 10%; /* Độ rộng cho cột Room */
+}
+
+.transaction-table th:nth-child(4),
+.transaction-table td:nth-child(4) {
+    width: 22%; /* Độ rộng cho cột Date */
+}
+
+.transaction-table th:nth-child(5),
+.transaction-table td:nth-child(5) {
+    width: 10%; /* Độ rộng cho cột Payment Method */
+}
+
+.transaction-table th:nth-child(6),
+.transaction-table td:nth-child(6) {
+    width: 20%; /* Độ rộng cho cột Status */
+}
+.transaction-table th:nth-child(7)
+{
+    width: 10%; /* Độ rộng cho cột Status */
+    
+}
+.transaction-table td:nth-child(7) {
+  
+    width: 10%;
+}
+.Booked button{ 
+    background-color: rgb(245, 158, 158);
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    color: green;
+}
+.Checkin button{
+  background-color: rgb(101, 214, 101);
+  height: 30px;
+    border-radius: 4px;
+    border: none;
+    color: green;
+}
+.Checkout button{
+    background-color: rgb(167, 212, 175);
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    color: green;
+}

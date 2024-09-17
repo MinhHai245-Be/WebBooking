@@ -1,0 +1,32 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 100px 30%;
+    border: none;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.form h3{
+    text-align: center;
+}
+
+.form label{
+    margin: 5px 30px;
+}
+.form input{
+    margin: 0px 30px;
+    height: 30px;
+}
+.form div{
+    text-align: center;
+}
+.form button{
+    margin: 10px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(26, 100, 161);
+    color: white;
+}
